@@ -13,8 +13,8 @@ def login():
         return {
     'host' : 'localhost',
     'user' : 'root',
-    'password' : 'amiralimysql',
-    'database' : 'mydb',
+    'password' : 'password',
+    'database' : 'db',
     'username' : 'admin'
     }
     password=input("-password : ")
@@ -189,4 +189,5 @@ class Table:
             print(table)
 
     
+
 
